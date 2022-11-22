@@ -1,0 +1,39 @@
+============================ INSTALAÇÃO ============================================
+
+- Aplicação realizada em PYTHON, o projeto utiliza alguns imports que são necessarios 
+para o bom funcionamento da aplicação, então é necessario garantir que possui as seguintes 
+bibliotecas instaladas:
+
+import socket 	(Normalmente vem por padrão instalada no PYTHON) 
+
+import pandas
+
+import numpy
+
+from collections import Counter 		(Normalmente vem por padrão instalada no PYTHON) 
+
+import os 		(Normalmente vem por padrão instalada no PYTHON) 
+
+import time 	(Normalmente vem por padrão instalada no PYTHON) 
+
+from datetime import datetime 	(Normalmente vem por padrão instalada no PYTHON) 
+
+
+- Por padrão o HOST e PORT definida é:
+
+HOST = localhost
+PORTA = 30000
+
+========================== ORIENTAÇÕES ===========================================
+
+- Foi utilizado o banco de dados em CSV que esta na pasta da aplicação, a base de
+dados já esta populada com alguns dados de venda e vendedores pré cadastrados,
+recomendo verificar a base para realizar as consultas no modo gerente.
+
+- O cliente possui 2 modos, gerente e vendedor.
+
+========================== EXECUÇÃO ===============================================
+
+1. Sempre execute primeiro o arquivo Servidor.py
+2. Em seguida execute o cliente.py
+
